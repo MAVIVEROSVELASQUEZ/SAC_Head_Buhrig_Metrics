@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: SAC_Head_Buhrig_Metrics
+version: "1.0.0"
+year: 2026
+type: software
+message: "If you use this software, please cite it as below."
+
+authors:
+  - given-names: Marco Antonio
+    family-names: Viveros Velásquez
+    orcid: "https://orcid.org/0009-0001-3653-5758"
+
+
+preferred-citation:
+  type: software
+  authors:
+    - given-names: Marco Antonio
+      family-names: Viveros Velásquez
+      orcid: "https://orcid.org/0009-0001-3653-5758"
+  title: SAC_Head_Buhrig_Metrics
+  version: "1.0.0"
+  year: 2026

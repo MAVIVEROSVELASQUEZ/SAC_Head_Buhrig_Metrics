@@ -1,0 +1,45 @@
+﻿# =====================================
+# Virtual environment
+# =====================================
+.venv/
+venv/
+
+# =====================================
+# Python cache
+# =====================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =====================================
+# common_data: hide everything but keep structure
+# =====================================
+common_data/**
+!common_data/**/
+!common_data/**/.gitkeep
+
+# =====================================
+# Hide ALL contents of non-MCh channels
+# Keep only folder structure
+# =====================================
+channels/CCh_Cartagena_Channel/**
+!channels/CCh_Cartagena_Channel/**/
+!channels/CCh_Cartagena_Channel/**/.gitkeep
+
+channels/ECh_Emily_Channel/**
+!channels/ECh_Emily_Channel/**/
+!channels/ECh_Emily_Channel/**/.gitkeep
+
+channels/SDCh_SantoDomingo_Channel/**
+!channels/SDCh_SantoDomingo_Channel/**/
+!channels/SDCh_SantoDomingo_Channel/**/.gitkeep
+
+channels/SACh_SanAntonio_Channel/**
+!channels/SACh_SanAntonio_Channel/**/
+!channels/SACh_SanAntonio_Channel/**/.gitkeep
+
+# =====================================
+# In MCh hide ONLY python scripts
+# =====================================
+channels/MCh_Main_Channel/**/*.py
